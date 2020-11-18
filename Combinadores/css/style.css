@@ -1,0 +1,19 @@
+/* Adjecent Sibling
+h2 + p {
+    color: red;
+} */
+
+/* General Sibling
+h2 ~ p {
+    color: red;
+} */
+
+/* Child 
+div > p {
+    color: red;
+} */
+
+/* Descendiente */
+div p {
+    color: red;
+}

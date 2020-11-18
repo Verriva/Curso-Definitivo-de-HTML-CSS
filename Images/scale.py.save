@@ -1,0 +1,11 @@
+import sys
+
+width = int(input("Ingrese el ancho de la imagen"))
+length = int(sys.argv[2]))
+percentage = int(sys.argv[3])
+
+width = round(width*(percentage/100))
+length = round(length*(percentage/100))
+
+print(f"Nuevo ancho: {width}")
+print(f"NUeva altura: {length}")

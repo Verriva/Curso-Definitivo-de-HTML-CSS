@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Press Start 2P', cursive;
+}
+
+body {
+    color: white;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    text-shadow: 
+    -0.1rem 0 0 #fdff2a,
+    -0.2rem 0 0 #df4a42,
+    0.05rem 0 0 #91fcfe,
+    0.2rem 0 0 #4405fc;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: block;
+}
+
+.main-container {
+    width: 90%; 
+    margin: 0 auto;
+    padding-top: 4rem;
+    border: gold 1rem;
+    border-style: inset;
+    background-color: black;
+}
+
+.main-tittle{
+    background-color: thistle;
+    width: fit-content;
+    border-style: double;
+    position: relative;
+    margin: 0 auto;
+    padding: 2rem;
+    top:4rem;
+}
+
+.main-tittle p {
+    font-size: 2rem;
+}
+
+.main-container .main-container-image {
+    display: flex;
+}
+
+.main-container .main-container-image img {
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+}
+
+
+.main-container .main-container-content {
+    width: 90%;
+    height: 90%;
+    margin: 2rem auto;
+    border: white 1rem;
+    border-style: double;
+}
+
+.main-container .main-container-message p {
+    
+    padding: 2rem;
+}
+
+#Checkpoint {
+    text-align: center;
+}

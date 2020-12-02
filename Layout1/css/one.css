@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.parent {
+    background-color: #64C7CC;
+    border: 0.1rem solid black;
+    margin: 2rem;
+    height: 50rem;
+    padding: 2rem;
+    font-size: 2rem;
+
+    position: relative;
+}
+
+.child1 {
+    background-color: #77cc66;
+    border: 0.1rem solid black;
+    margin: 2rem;
+    padding: 2rem;
+
+    position: absolute;
+    top:0px;
+}
+.child2 {
+    background-color: #b94193;
+    border: 0.1rem solid black;
+    margin: 2rem;
+    padding: 2rem;
+
+    position: absolute;
+    top:15px;
+    left: 50px;
+}
+.child3 {
+    background-color: #4155b9;
+    border: 0.1rem solid black;
+    margin: 2rem;
+    padding: 2rem;
+
+    position: relative;
+}
